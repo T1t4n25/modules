@@ -343,7 +343,7 @@ With Arabic locale:
 
 ## Best Practices
 
-1. **Always set locale** at the start of request handling, like ,middleware in restful API or interceptors in gRPC
+1. **Always set locale** at the start of request handling
 2. **Use BusinessException** for all business logic errors
 3. **Log with error IDs** for tracking unexpected errors
 4. **Don't cache** messages with dynamic parameters (error_id, etc.)
@@ -353,7 +353,7 @@ With Arabic locale:
 
 ---
 
-## Customizing
+## Contributing
 
 When adding new error codes:
 
@@ -376,6 +376,13 @@ raise BusinessException(NEW_ERROR)
 
 ---
 
-## License
+---
 
-MIT License - see LICENSE file for details
+## Authors
+
+### Authentication & Localization System
+- **Zeyad Hemeda** - [@T1t4n25](https://github.com/ahmeda335)
+
+### RabbitMQ Streams Module
+- **Ahmed Adel** - [@ahmeda335](https://github.com/ahmeda335)
+- **Zeyad Hemeda** - [@T1t4n25](https://github.com/T1t4n25)
