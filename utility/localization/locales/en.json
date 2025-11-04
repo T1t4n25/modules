@@ -1,0 +1,96 @@
+{
+  "error.database.operational": "Error retrieving data from source. Please contact the developer.",
+  "error.database.integrity": "Data integrity error: '{constraint}'. Please verify your input and try again.",
+  "error.database.notfound": "The requested resource was not found in the database.",
+  "error.data.retrieval_failed": "Error retrieving data from source. Please refer to the developer. Error ID: {error_id}",
+
+  "error.unexpected": "An unexpected error occurred. Error ID: {error_id}. Please provide this ID to the developer.",
+
+  "error.product.notfound": "Product not found.",
+  "error.product.already_exists": "Product already exists.",
+  "error.product.variants_notfound": "The specified product variants were not found.",
+  "error.product.name_exists": "Product name already exists.",
+
+  "error.image.filename_not_unique": "Image filename already exists for this variation [{filename}].",
+
+  "error.category.notfound": "Category not found.",
+  "error.subcategory.notfound": "Subcategory not found.",
+  "error.validation.invalid": "Invalid input provided. Please check your data.",
+  "error.validation.missing": "Required field '{field}' is missing.",
+  "error.validation.format": "Invalid format for field '{field}'.",
+
+  "error.auth.unauthorized": "You are not logged in. Please sign in to continue.",
+  "error.auth.credentials": "Invalid email or password. Please try again.",
+  "error.auth.expired": "Your session has expired. Please log in again.",
+  "error.auth.forbidden": "You do not have access to this page.",
+  "error.auth.insufficient_permissions": "Your account does not have permission to perform this action.",
+  "error.auth.invalid_session": "Your session is no longer valid. Please sign in again.",
+  "error.auth.server_unavailable": "Authentication service is temporarily unavailable. Please try again later.",
+  "error.auth.invalid_audience": "Your login session is not valid for this service. Please sign in again or contact support.",
+
+  "success.product.added": "Product created successfully.",
+  "success.product.updated": "Product updated successfully.",
+  "success.product.deleted": "Product deleted successfully.",
+  "success.product.variants_updated": "Product variants updated successfully.",
+  "success.product.variants_deleted": "Product variants deleted successfully.",
+
+  "success.category.added": "Category added successfully",
+  "success.category.updated": "Category updated successfully",
+  "success.category.deleted": "Category deleted successfully",
+
+  "success.subcategory.added": "Subcategory added successfully",
+  "success.subcategory.updated": "Subcategory updated successfully",
+  "success.subcategory.deleted": "Subcategory deleted successfully",
+
+  "success.cart.item_added": "Item added to cart successfully.",
+  "success.cart.item_removed": "Item removed from cart successfully.",
+  "success.cart.cleared": "All items have been removed from your cart.",
+  "success.cart.item_updated": "Cart item updated successfully.",
+
+  "error.cart.notfound": "Cart not found.",
+  "error.cart.item_notfound": "Cart item not found.",
+  "error.cart.empty": "Your cart is already empty.",
+  "error.cart.update_failed": "Failed to update the cart item.",
+  "error.cart.add_failed": "Failed to add item to cart. Please try again.",
+
+  "error.user.notfound": "User not found.",
+  "error.user.creation_failed": "Failed to create user.",
+  "error.user.update_failed": "Failed to update user information.",
+  "error.user.delete_failed": "Failed to delete user.",
+  "error.user.unauthorized": "You are not authorized to perform this action.",
+  "error.user.already_exists": "User already exists.",
+  "error.user.email_exists": "A user with this email address already exists.",
+  "error.user.phone_exists": "A user with this phone number already exists.",
+  "error.user.not_registered": "Please complete your registration to access this feature.",
+
+  "success.user.created": "User created successfully, please login again.",
+  "success.user.updated": "User updated successfully.",
+  "success.user.deleted": "User deleted successfully.",
+  "success.role.assigned": "Role assigned successfully.",
+  "success.role.revoked": "Role revoked successfully.",
+
+  "error.address.limit_reached": "You have reached the maximum number of addresses.",
+
+  "success.address.added": "Address added successfully.",
+  "success.address.updated": "Address updated successfully.",
+  "success.address.deleted": "Address deleted successfully.",
+
+  "success.order.created": "Order created successfully.",
+  "success.order.updated": "Order updated successfully.",
+  "success.order.cancelled": "Order cancelled successfully.",
+  "success.order.deleted": "Order deleted successfully.",
+  "success.order.status_changed": "Order status changed successfully.",
+
+  "error.order.notfound": "Order not found.",
+  "error.order.item_notfound": "Order item not found.",
+  "error.order.update_failed": "Failed to update the order.",
+  "error.order.create_failed": "Failed to create order. Please try again.",
+  "error.order.cancel_failed": "Failed to cancel the order.",
+  "error.order.delete_failed": "Failed to delete the order.",
+  "error.order.status_invalid": "Invalid order status.",
+
+  "error.role.notfound": "Role not found.",
+  "error.role.assignment_failed": "Failed to assign role.",
+  "error.role.revocation_failed": "Failed to revoke role."
+
+}

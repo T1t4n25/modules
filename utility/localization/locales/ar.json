@@ -1,0 +1,96 @@
+{
+  "error.database.operational": "حدث خطأ في استرجاع البيانات من المصدر. يرجى الاتصال بالمطور.",
+  "error.database.integrity": "خطأ في سلامة البيانات: '{constraint}'. يرجى التحقق من المدخلات والمحاولة مرة أخرى.",
+  "error.database.notfound": "لم يتم العثور على المورد المطلوب في قاعدة البيانات.",
+  "error.data.retrieval_failed": "حدث خطأ أثناء جلب البيانات من المصدر. يرجى الرجوع إلى المطور. رقم الخطأ: {error_id}",
+
+  "error.unexpected": "حدث خطأ غير متوقع. معرف الخطأ: {error_id}. يرجى تقديم هذا المعرف للمطور.",
+  
+  "error.product.notfound": "المنتج غير موجود.",
+  "error.product.already_exists": "المنتج موجود بالفعل.",
+  "error.product.variants_notfound": "خيارات المنتج المحددة غير موجودة.",
+  "error.product.name_exists": "اسم المنتج موجود بالفعل.",
+
+  "error.image.filename_not_unique": "اسم ملف الصورة موجود بالفعل لهذا الخيار [{filename}].",
+
+  "error.category.notfound": "الفئة غير موجودة.",
+  "error.subcategory.notfound": "الفئة الفرعية غير موجودة.",
+  "error.validation.invalid": "تم تقديم مدخلات غير صالحة. يرجى التحقق من البيانات.",
+  "error.validation.missing": "الحقل المطلوب '{field}' مفقود.",
+  "error.validation.format": "صيغة غير صالحة للحقل '{field}'.",
+
+  "error.auth.unauthorized": "أنت غير مسجل الدخول. يرجى تسجيل الدخول للمتابعة.",
+  "error.auth.credentials": "بيانات تسجيل الدخول غير صحيحة. يرجى المحاولة مرة أخرى.",
+  "error.auth.expired": "انتهت صلاحية الجلسة. يرجى تسجيل الدخول مرة أخرى.",
+  "error.auth.forbidden": "ليس لديك صلاحية للوصول إلى هذه الصفحة.",
+  "error.auth.insufficient_permissions": "حسابك لا يملك الإذن لتنفيذ هذا الإجراء.",
+  "error.auth.invalid_session": "انتهت صلاحية الجلسة أو لم تعد صالحة. يرجى تسجيل الدخول مرة أخرى.",
+  "error.auth.server_unavailable": "خدمة تسجيل الدخول غير متاحة مؤقتًا. يرجى المحاولة لاحقًا.",
+  "error.auth.invalid_audience": "جلسة تسجيل الدخول الخاصة بك غير صالحة لهذه الخدمة. يرجى تسجيل الدخول مرة أخرى أو التواصل مع الدعم.",
+
+  "success.product.added": "تمت إضافة المنتج بنجاح، يرجى إعادة تسجيل الدخول.",
+  "success.product.updated": "تم تحديث المنتج بنجاح.",
+  "success.product.deleted": "تم حذف المنتج بنجاح.",
+  "success.product.variants_updated": "تم تحديث خيارات المنتج بنجاح.",
+  "success.product.variants_deleted": "تم حذف خيارات المنتج بنجاح.",
+
+  "success.category.added": "تم إضافة الفئة بنجاح",
+  "success.category.updated": "تم تحديث الفئة بنجاح",
+  "success.category.deleted": "تم حذف الفئة بنجاح",
+
+  "success.subcategory.added": "تم إضافة الفئة الفرعية بنجاح",
+  "success.subcategory.updated": "تم تحديث الفئة الفرعية بنجاح",
+  "success.subcategory.deleted": "تم حذف الفئة الفرعية بنجاح",
+
+  "success.cart.item_added": "تمت إضافة العنصر إلى السلة بنجاح.",
+  "success.cart.item_removed": "تمت إزالة العنصر من السلة بنجاح.",
+  "success.cart.cleared": "تمت إزالة جميع العناصر من السلة.",
+  "success.cart.item_updated": "تم تحديث عنصر السلة بنجاح.",
+
+  "error.cart.notfound": "السلة غير موجودة.",
+  "error.cart.item_notfound": "عنصر السلة غير موجود.",
+  "error.cart.empty": "السلة فارغة بالفعل.",
+  "error.cart.update_failed": "فشل في تحديث عنصر السلة.",
+  "error.cart.add_failed": "فشل في إضافة العنصر إلى السلة. يرجى المحاولة مرة أخرى.",
+
+  "error.user.notfound": "المستخدم غير موجود.",
+  "error.user.creation_failed": "فشل في إنشاء المستخدم.",
+  "error.user.update_failed": "فشل في تحديث معلومات المستخدم.",
+  "error.user.delete_failed": "فشل في حذف المستخدم.",
+  "error.user.unauthorized": "غير مصرح لك بتنفيذ هذا الإجراء.",
+  "error.user.already_exists": "المستخدم موجود بالفعل.",
+  "error.user.email_exists": "يوجد مستخدم بهذا البريد الإلكتروني بالفعل.",
+  "error.user.phone_exists": "يوجد مستخدم بهذا الرقم بالفعل.",
+  "error.user.not_registered": "يرجى إكمال التسجيل للوصول إلى هذه الميزة.",
+
+  "success.user.created": "تم إنشاء المستخدم بنجاح.",
+  "success.user.updated": "تم تحديث المستخدم بنجاح.",
+  "success.user.deleted": "تم حذف المستخدم بنجاح.",
+  "success.role.assigned": "تم تعيين الدور بنجاح.",
+  "success.role.revoked": "تم إلغاء الدور بنجاح.",
+
+  "error.address.limit_reached": "لقد وصلت إلى الحد الأقصى لعدد العناوين.",
+
+  "success.address.added": "تمت إضافة العنوان بنجاح.",
+  "success.address.updated": "تم تحديث العنوان بنجاح.",
+  "success.address.deleted": "تم حذف العنوان بنجاح.",
+
+  "success.order.created": "تم إنشاء الطلب بنجاح.",
+  "success.order.updated": "تم تحديث الطلب بنجاح.",
+  "success.order.cancelled": "تم إلغاء الطلب بنجاح.",
+  "success.order.deleted": "تم حذف الطلب بنجاح.",
+  "success.order.status_changed": "تم تغيير حالة الطلب بنجاح.",
+
+  "error.order.notfound": "الطلب غير موجود.",
+  "error.order.item_notfound": "عنصر الطلب غير موجود.",
+  "error.order.update_failed": "فشل في تحديث الطلب.",
+  "error.order.create_failed": "فشل في إنشاء الطلب. يرجى المحاولة مرة أخرى.",
+  "error.order.cancel_failed": "فشل في إلغاء الطلب.",
+  "error.order.delete_failed": "فشل في حذف الطلب.",
+  "error.order.status_invalid": "حالة الطلب غير صالحة.",
+
+  "error.role.notfound": "الدور غير موجود.",
+  "error.role.assignment_failed": "فشل في تعيين الدور.",
+  "error.role.revocation_failed": "فشل في إلغاء الدور."
+
+}
