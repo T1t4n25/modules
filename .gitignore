@@ -221,7 +221,6 @@ __pycache__/
 *.so
 
 old/
-RabbitMQ
 
 # Distribution / packaging
 .Python
